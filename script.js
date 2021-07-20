@@ -95,7 +95,6 @@ btnHold.addEventListener(`click`, function () {
             document.querySelector(`.player--${activePlayer}`).classList.add(`player--winner`)
             document.querySelector(`.player--${activePlayer}`).classList.remove(`player--active`)
             diceEl.style.display = `none`
-            // alert(`Meka du es krve`)
             playing = false
         }
         else {
