@@ -259,6 +259,10 @@ main {
   
   /* ELEMENTS */
   .name {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     position: relative;
     font-size: 2rem;
     text-transform: uppercase;
@@ -269,6 +273,10 @@ main {
   }
   
   .score {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     font-size: 4rem;
     font-weight: 300;
     color: #444;
@@ -301,6 +309,10 @@ main {
   }
   
   .current-label {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -308,6 +320,10 @@ main {
   }
   
   .current-score {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     font-size: 2rem;
   }
   
@@ -363,6 +379,10 @@ main {
   }
   
   .dice {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     position: absolute;
     left: 50%;
     top: 64%;
@@ -456,6 +476,10 @@ main {
   }
 
   .for-mobile h1 {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     font-weight: 600;
     font-size: 3rem;
     color: #000;
@@ -463,6 +487,10 @@ main {
   }
 
   .for-mobile img {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     width: 90%;
   }
 }
