@@ -155,6 +155,11 @@ main {
 }
 
 .dice {
+  pointer-events: none;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
   position: absolute;
   left: 50%;
   top: 16.5rem;
@@ -379,6 +384,7 @@ main {
   }
   
   .dice {
+    pointer-events: none;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -487,6 +493,7 @@ main {
   }
 
   .for-mobile img {
+    pointer-events: none;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
