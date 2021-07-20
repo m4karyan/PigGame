@@ -101,10 +101,10 @@ main {
 
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
-  -webkit-user-select: none;  /* Chrome all / Safari all */
-  -moz-user-select: none;     /* Firefox all */
-  -ms-user-select: none;      /* IE 10+ */
-  user-select: none;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -297,6 +297,10 @@ main {
   
   /* ABSOLUTE POSITIONED ELEMENTS */
   .btn {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
