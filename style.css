@@ -229,7 +229,7 @@ main {
   
   .player {
     flex: 50%;
-    padding: 9rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +273,7 @@ main {
     opacity: 0.8;
     border-radius: 6px;
     color: #fff;
-    width: 90%;
+    width: 60%;
     padding: 2rem;
     text-align: center;
     transition: all 0.75s;
